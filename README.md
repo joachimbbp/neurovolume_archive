@@ -1,3 +1,13 @@
+# 📕 This is an Archive!
+Neurovolume can be found at [joachimbbp/neurovolume](https://github.com/joachimbbp/neurovolume).
+This is an archive of the old Python and Go code that was written while building prototypes for this project.
+
+Some files that might be of use to Go programmers:
+- [NIfTI1 File Parsing](https://github.com/joachimbbp/neurovolume_archive/blob/main/pkg/open/Nifti1.go). Please read the [acknowledgements](https://github.com/joachimbbp/neurovolume_archive/blob/main/pkg/open/acknowledgements.md)
+- A minimal, toy [VDB Writer](https://github.com/joachimbbp/neurovolume_archive/blob/main/pkg/vdb/vdb.go) (note that it isn't even sparse!). Based [this JengaFX blogpost](https://jangafx.com/insights/vdb-a-deep-dive)
+
+The following text is unaltered from the original `README`:
+
 ![Render of a non-skull stripped MNI Template](readme_media/mni_template_render.png)
 
 🧠 Neurovolume is a VDB-based fMRI visualization and analysis pipeline. This project is currently a work in progress.
